@@ -5,4 +5,5 @@ def is_palindrome_iterative(word):
         if word[le] != word[len(word)-le-1]:
             return False
     return True
-#font: https://www.geeksforgeeks.org/python-program-check-string-palindrome-not/
+
+# font:https://www.geeksforgeeks.org/python-program-check-string-palindrome-not/
