@@ -7,6 +7,7 @@ def quick_sort(word):
         maiores = [i for i in word[1:] if i > pivo]
         return quick_sort(menores) + [pivo] + quick_sort(maiores)
 
+
 def is_anagram(first_string, second_string):
     if len(first_string) == 0 and len(second_string) == 0:
         return (first_string, second_string, False)
